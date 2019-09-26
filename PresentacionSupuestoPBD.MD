@@ -1,4 +1,4 @@
-# Documentos de RequisitoLa hoja padronal o formulario será firmada por todos los vecinos cuyos datos figuren en la misma o, en su caso, por su representante legaLa hoja padronal o formulario será firmada por todos los vecinos cuyos datos figuren en la misma o, en su caso, por su representante legas de la Base de Datos para la gestión del Padrón Municipal de un ayuntamiento.
+# Documentos de Requisitos de la Base de Datos para la gestión del Padrón Municipal de un ayuntamiento.
 
 ## Informaión extraída
 
@@ -33,8 +33,7 @@ Con carácter voluntario se podrán recoger los siguientes datos:
 - Designación  de  las  personas  que  pueden  representar  a  cada  vecino  ante  la Administración municipal a efectos padronales.
 - Número de teléfono
 
-La hoja padronal o formulario será firmada por todos los vecinos cuyos datos figuren en la misma o, en su caso, por su representante lega.
-
+La hoja padronal o formulario será firmada por todos los vecinos cuyos datos figuren en la misma o, en su caso, por su representante legal.
 El  Ayuntamiento  podrá  comprobar  la  veracidad  de  los  datos  consignados  por  los vecinos, exigiendo al efecto la presentación del documento nacional de identidad o tarjeta de residencia,  el  libro  de  familia,  el  título  que  legitime  la  ocupación  de  la  vivienda  u  otros documentos análogos.
 
 Los Ayuntamientos, además, conservarán las hojas de inscripción y las declaraciones y comunicaciones suscritas por los vecinos, o reproducciones de las mismas en forma que se garantice su autenticidad
