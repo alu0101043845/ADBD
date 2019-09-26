@@ -1,4 +1,4 @@
-##Necesidades del ayuntamiento para el problema del padrón
+#Necesidades del ayuntamiento para el problema del padrón
 
 <p>Los menores de edad no emancipados y los mayores incapacitados tendrán la misma vecindad  que  los  padres  que  tengan  su  guarda  o  custodia  o,  en  su  defecto,  de  sus representantes legales, salvo autorización por escrito de éstos para residir en otro municipio.</p>
 <p>La inscripción en el padrón municipal contendrá como obligatorios sólo los siguientes datos de cada vecino:
