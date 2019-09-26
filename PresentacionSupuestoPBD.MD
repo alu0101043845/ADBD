@@ -63,4 +63,8 @@ La  negativa  de  los  españoles  y  extranjeros  que  vivan  en  territorio  e
 
 ## Redactado
 
-El ayuntamiento es el encargado de la gestión del Padrón Municipal
+El ayuntamiento es el encargado de la gestión del Padrón Municipal, donde constan los vecinos de un municipio y del domicilio habitual en el mismo, por lo que el ayuntamiento es el encargado de tramitar las inscripciones, así como el encargado de eliminar o editar el mismo. 
+
+* añadir introducción
+
+Los requisitos necesarios para la 
