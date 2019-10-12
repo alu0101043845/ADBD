@@ -1,0 +1,131 @@
+usuario@ubuntu:~$ pwd
+/home/usuario usuario@ubuntu:~$ who i am
+usuario	pts/1	2019-10-08 10:48 (10.150.12.90)
+usuario@ubuntu:~$ postgresql --version postgresql: orden no  encontrada usuario@ubuntu:~$ sudo apt-get install postgresql [sudo] contraseña para usuario:
+Leyendo lista de paquetes... Hecho Creando árbol de dependencias
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales: libpq5 postgresql-10 postgresql-client-10 postgresql-client-common postgresql-common sysstat
+Paquetes sugeridos:
+postgresql-doc locales-all postgresql-doc-10 libjson-perl isag
+Se instalarán los siguientes paquetes NUEVOS:
+libpq5 postgresql postgresql-10 postgresql-client-10 postgresql-client-common postgresql-common sysstat
+0 actualizados, 7 nuevos se instalarán, 0 para eliminar y 125 no actualizados.
+Se necesita descargar 5.287 kB de archivos.
+Se utilizarán 20,8 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://es.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpq5 amd64 10.10-0ubuntu0.18.04.1 [108 kB]
+Des:2 http://es.archive.ubuntu.com/ubuntu bionic/main amd64 postgresql- client-common all 190 [29,5 kB]
+Des:3 http://es.archive.ubuntu.com/ubuntu bionic-updates/main amd64 postgresql-client-10 amd64 10.10-0ubuntu0.18.04.1 [935 kB]
+Des:4 http://es.archive.ubuntu.com/ubuntu bionic/main amd64 postgresql- common all 190 [157 kB]
+Des:5 http://es.archive.ubuntu.com/ubuntu bionic-updates/main amd64 postgresql-10 amd64 10.10-0ubuntu0.18.04.1 [3.758 kB]
+Des:6 http://es.archive.ubuntu.com/ubuntu bionic/main amd64 postgresql all 10+190 [5.784 B]
+Des:7 http://es.archive.ubuntu.com/ubuntu bionic/main amd64 sysstat amd64 11.6.1-1 [295 kB]
+Descargados 5.287 kB en 4s (1.190 kB/s) Preconfigurando paquetes ...
+Seleccionando el paquete libpq5:amd64 previamente no seleccionado. (Leyendo la base de datos ... 159304 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-libpq5_10.10- 0ubuntu0.18.04.1_amd64.deb ...
+Desempaquetando libpq5:amd64 (10.10-0ubuntu0.18.04.1) ... Seleccionando el paquete postgresql-client-common previamente no seleccionado.
+Preparando para desempaquetar .../1-postgresql-client-common_190_all.deb
+...
+Desempaquetando postgresql-client-common (190) ... Seleccionando el paquete postgresql-client-10 previamente no seleccionado.
+Preparando para desempaquetar .../2-postgresql-client-10_10.10- 0ubuntu0.18.04.1_amd64.deb ...
+Desempaquetando postgresql-client-10 (10.10-0ubuntu0.18.04.1) ...
+ 
+Seleccionando el paquete postgresql-common previamente no seleccionado. Preparando para desempaquetar .../3-postgresql-common_190_all.deb ...
+Añadiendo `desviación de /usr/bin/pg_config a /usr/bin/pg_config.libpq- dev por postgresql-common'
+Desempaquetando postgresql-common (190) ...
+Seleccionando el paquete postgresql-10 previamente no seleccionado. Preparando para desempaquetar .../4-postgresql-10_10.10- 0ubuntu0.18.04.1_amd64.deb ...
+Desempaquetando postgresql-10 (10.10-0ubuntu0.18.04.1) ... Seleccionando el paquete postgresql previamente no seleccionado. Preparando para desempaquetar .../5-postgresql_10+190_all.deb ... Desempaquetando postgresql (10+190) ...
+Seleccionando el paquete sysstat previamente no seleccionado. Preparando para desempaquetar .../6-sysstat_11.6.1-1_amd64.deb ... Desempaquetando sysstat (11.6.1-1) ...
+Configurando sysstat (11.6.1-1) ...
+
+Creating config file /etc/default/sysstat with new version update-alternatives: utilizando /usr/bin/sar.sysstat para proveer
+/usr/bin/sar (sar) en modo automático Created symlink /etc/systemd/system/multi-
+user.target.wants/sysstat.service → /lib/systemd/system/sysstat.service. Procesando disparadores para ureadahead (0.100.0-21) ...
+Configurando libpq5:amd64 (10.10-0ubuntu0.18.04.1) ... Procesando disparadores para libc-bin (2.27-3ubuntu1) ... Configurando postgresql-client-common (190) ...
+Procesando disparadores para systemd (237-3ubuntu10.29) ... Configurando postgresql-common (190) ...
+Añadiendo al usuario postgres al grupo ssl-cert
+
+Creating config file /etc/postgresql-common/createcluster.conf with new version
+Building PostgreSQL dictionaries from installed myspell/hunspell packages...
+en_us es_es
+Removing obsolete dictionary files:
+Created symlink /etc/systemd/system/multi- user.target.wants/postgresql.service →
+/lib/systemd/system/postgresql.service.
+Procesando disparadores para man-db (2.8.3-2ubuntu0.1) ... Configurando postgresql-client-10 (10.10-0ubuntu0.18.04.1) ... update-alternatives: utilizando
+/usr/share/postgresql/10/man/man1/psql.1.gz para proveer
+/usr/share/man/man1/psql.1.gz (psql.1.gz) en modo automático Configurando postgresql-10 (10.10-0ubuntu0.18.04.1) ...
+Creating new PostgreSQL cluster 10/main ...
+/usr/lib/postgresql/10/bin/initdb -D /var/lib/postgresql/10/main --auth- local peer --auth-host md5
+The files belonging to this database system will be owned by user "postgres".
+This user must also own the server process.
+
+The database cluster will be initialized with locale "es_ES.UTF-8". The default database encoding has accordingly been set to "UTF8".
+The default text search configuration will be set to "spanish". Data page checksums are disabled.
+ 
+fixing permissions on existing directory /var/lib/postgresql/10/main ... ok
+creating subdirectories ... ok
+selecting default max_connections ... 100 selecting default shared_buffers ... 128MB selecting default timezone ... Atlantic/Canary
+selecting dynamic shared memory implementation ... posix creating configuration files ... ok
+running bootstrap script ... ok
+performing post-bootstrap initialization ... ok syncing data to disk ... ok
+
+Success. You can now start the database server using:
+
+/usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+
+Ver Cluster Port Status Owner	Data directory	Log file
+10	main	5432 down	postgres /var/lib/postgresql/10/main
+/var/log/postgresql/postgresql-10-main.log update-alternatives: utilizando
+/usr/share/postgresql/10/man/man1/postmaster.1.gz para proveer
+/usr/share/man/man1/postmaster.1.gz (postmaster.1.gz) en modo automático Configurando postgresql (10+190) ...
+Procesando disparadores para systemd (237-3ubuntu10.29) ... Procesando disparadores para ureadahead (0.100.0-21) ... usuario@ubuntu:~$ sudo passwd postgres
+Introduzca la nueva contraseña de UNIX:
+Vuelva a escribir la nueva contraseña de UNIX:
+passwd: contraseña actualizada correctamente usuario@ubuntu:~$ sudo su postgres postgres@ubuntu:/home/usuario$ psql
+could not change directory to "/home/usuario": Permiso denegado psql (10.10 (Ubuntu 10.10-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# createuser miusuario
+postgres-# alter role miusuario with password 'mipassword' 
+postgres=# CREATE DATABASE pract1;
+CREATE DATABASE
+postgres=# create table usuarios ( postgres(# nombre varchar(30), postgres(# clave varchar(10) postgres(# );
+CREATE TABLE
+postgres=# insert into usuarios (nombre, clave) values ('Isa','asdf');
+INSERT 0 1
+postgres=# insert into usuarios (nombre, clave) values ('Pablo','jfx344');
+INSERT 0 1
+postgres=# insert into usuarios (nombre, clave) values ('Ana','tru3fal');
+INSERT 0 1
+postgres=# \dt
+List of relations
+Schema |	Name	| Type	|	Owner
+--------+----------+-------+----------
+public | usuarios | table | postgres
+ 
+(1 row)
+
+postgres=# \d usuarios
+Table "public.usuarios"
+Column |	Type	| Collation | Nullable | Default
+--------+-----------------------+-----------+----------+---------
+nombre | character varying(30) |	|	|
+clave	| character varying(10) |	|	|
+
+postgres=# SELECT * FROM usuarios ; 
+nombre |	clave
+--------+---------
+Isa	| asdf 
+Pablo	| jfx344 
+Ana	| tru3fal
+(3 rows)
+
+postgres=# \q postgres@ubuntu:/home/usuario$ exit exit
+usuario@ubuntu:~$ pwd
+/home/usuario usuario@ubuntu:~$ who i am
+usuario	pts/1	2019-10-08 10:48 (10.150.12.90)
+usuario@ubuntu:~$ exit logout
+Connection to 10.6.128.141 closed.
+
+
+
