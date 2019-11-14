@@ -31,7 +31,7 @@ EXECUTE PROCEDURE update_n_pedidos();
 
 # postgresql database farmacia - actualizar códigos de medicamentos
 
-Function:
+# Function:
 
 CREATE OR REPLACE FUNCTION update_cod_med()
 RETURNS trigger AS
@@ -42,7 +42,7 @@ RETURN NEW;
 END;
 $BODY$ LANGUAGE plpgsql;
 
-Trigger:
+# Trigger:
 
 CREATE TRIGGER update_cod_med_changes
 AFTER UPDATE ON medicamentos
