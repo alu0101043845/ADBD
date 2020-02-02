@@ -1,5 +1,6 @@
 #Gestión de una empresa de máquinas expendedoras
 | Tarea | Encargado | Descripción | Link |
+|---|---|---|---|
 | Modelo Conceptual (ER/E) | Daniel | |
 | Modelo Lógico Relacional| Daniel | |
 | Modelo Lógico Objeto-Relacional (UML) | Daniel | |
