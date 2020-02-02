@@ -1,11 +1,11 @@
 # Gestión de una empresa de máquinas expendedoras
 | Tarea | Encargado | Descripción | Link |
 |---|---|---|---|
-| Modelo Conceptual (ER/E) | Daniel | |
-| Modelo Lógico Relacional| Daniel | |
-| Modelo Lógico Objeto-Relacional (UML) | Daniel | |
-| Generación de Código (Scripts) | Jordi | |
-| Carga de datos | Jordi | |
+| Modelo Conceptual (ER/E) | Daniel | | ADBD/Proyecto/ERE.pdf |
+| Modelo Lógico Relacional| Daniel | | ADBD/Proyecto/GrafoRelacional.pdf |
+| Modelo Lógico Objeto-Relacional (UML) | Daniel | | ADBD/Proyecto/ASIClases.pdf |
+| Generación de Código (Scripts) | Jordi | | |
+| Carga de datos | Jordi | | |
 
 Utiliza esta tarea para entregar el proyecto de Bases de Datos. Utiliza las plantillas proporcionadas para la entrega. Se debe incluir un documento con los acuerdos del grupo respecto a la distribución de tareas. Se debe entregar un enlace a github al producto desarrollado en cada una de las fases del proyecto, y un archivo zip con el proyecto git.
 
