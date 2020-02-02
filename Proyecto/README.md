@@ -1,6 +1,7 @@
 # Gestión de una empresa de máquinas expendedoras
 
 [Requisitos](https://github.com/alu0101043845/ADBD/blob/master/Proyecto/Requisitos.pdf)
+
 | Tarea | Encargado | Descripción | Link |
 |---|---|---|---|
 | Modelo Conceptual (ER/E) | Daniel | | [ERE](https://github.com/alu0101043845/ADBD/blob/master/Proyecto/ERE.pdf) |
