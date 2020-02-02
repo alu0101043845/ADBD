@@ -1,4 +1,4 @@
-#Gestión de una empresa de máquinas expendedoras
+# Gestión de una empresa de máquinas expendedoras
 | Tarea | Encargado | Descripción | Link |
 |---|---|---|---|
 | Modelo Conceptual (ER/E) | Daniel | |
